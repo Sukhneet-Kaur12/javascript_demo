@@ -104,8 +104,8 @@ const likes = 30;
 // console.log(result);
 
 // template string way
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
-console.log(result);
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
 
 // creating html templates
 let html = `
@@ -133,7 +133,9 @@ console.log(random);
 // let Result = ninjas.join('-');
 // console.log(Result);
 
-let Result = ninjas.indexOf('chun-li');// returns position 
+//let Result = ninjas.indexOf('chun-li');// returns position 
 //let Result = ninjas.concat(['ken', 'crystal']); // concat will add the new added items to the existing ones.
-//let Result = ninjas.push('ken'); // it returns the length of new array.
-console.log(Result);
+let result = ninjas.push('ken'); // it returns the length of new array.
+result = ninjas.pop();
+console.log(ninjas);
+console.log(result);
