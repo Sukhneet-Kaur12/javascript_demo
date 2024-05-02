@@ -142,3 +142,44 @@ console.log(result);
 
 let age = null;
 console.log(age, age + 3, `the age is ${age}`);
+
+//booleans and comparisons
+console.log(true, false, "true", "false");
+
+// methods can return booleans
+let email = 'luigi@netninja.co.uk';
+let names = ['mario', 'luigi', 'toad'];
+let results = email.includes('!'); // include is used on a string to look if a certain character exists.
+results = names.includes('luigi');
+console.log(results);
+
+// comparison operators
+let Age = 25;
+console.log(Age == 25); // == means that asking about are these two variables same?
+console.log(Age == 30);
+console.log(Age != 30); // this != sign means that is age not equal to 30?
+console.log(Age < 30); // if age is less than 30 and this should result true.
+console.log(Age <= 25); 
+
+// same with the variables
+
+let Name = 'shaun';
+console.log(Name == 'shaun'); //returns true
+console.log(Name == 'Shaun'); // returns false as the name starts with capital letter.
+console.log(Name > 'crystal'); // as the first letter comes first so it is smaller and returns true. 
+
+let price = 25;
+
+//loose comparision (different types can still be equal)
+// console.log(price == 25);
+// console.log(price == '25');
+console.log(price != 25);
+console.log(price != '25');
+
+// strict comparision (different types cannot be equal)
+console.log(price === 25); // in this case === sign defines if the values of price is defined exactly and is equal including its string type.
+console.log(price === '25');
+console.log(price !== 25);
+console.log(price !== '25');
+
+
