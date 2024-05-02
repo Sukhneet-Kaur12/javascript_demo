@@ -124,3 +124,16 @@ console.log(ages[2]);
 
 let random = ['shaun', 'crystal', 30, 20];
 console.log(random);
+
+// array methods
+
+// let final = ninjas.join(',');
+// console.log(final);
+
+// let Result = ninjas.join('-');
+// console.log(Result);
+
+let Result = ninjas.indexOf('chun-li');// returns position 
+//let Result = ninjas.concat(['ken', 'crystal']); // concat will add the new added items to the existing ones.
+//let Result = ninjas.push('ken'); // it returns the length of new array.
+console.log(Result);
