@@ -139,3 +139,6 @@ let result = ninjas.push('ken'); // it returns the length of new array.
 result = ninjas.pop();
 console.log(ninjas);
 console.log(result);
+
+let age = null;
+console.log(age, age + 3, `the age is ${age}`);
