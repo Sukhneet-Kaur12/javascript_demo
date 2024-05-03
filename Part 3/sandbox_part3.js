@@ -71,7 +71,10 @@ const password = 'p@ssword';
 if(password.length >= 8){
     console.log('that password is long enough!')
 
+}else {             // else statement use with same if statement example.
+    console.log('That password is not long enough1')
 }
+
 
 
 
