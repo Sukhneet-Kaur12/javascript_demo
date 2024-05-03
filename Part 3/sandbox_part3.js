@@ -51,6 +51,45 @@ let i = 3;
  }
  while(i < 5);
 
+ // if statements
+ const aGe = 21;
+
+ if(aGe > 20){
+    console.log('you are over 20 years old.');
+
+ }
+
+ const ninja = ['shaun', 'ryu', 'chin-lu', 'youshi'];
+
+ if(ninja.length > 3){
+    console.log("that's a lot of ninjas");
+ }
+ 
+ // to see if the password length is long than 8 characters in it then only it will say that line.
+const password = 'p@ssword';
+
+if(password.length >= 8){
+    console.log('that password is long enough!')
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
