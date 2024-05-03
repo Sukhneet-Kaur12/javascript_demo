@@ -76,16 +76,29 @@ let i = 3;
 // }
 
 // if else statements is for multiple statements or conditions to pass 
-const password = 'p@ssword1234';
+// const password = 'p@ssword1234';
 
-if(password.length >= 12){
-    console.log('Thta password is might strong.');
-}else if(password.length >= 8){         // else if statement
+// if(password.length >= 12){
+//     console.log('Thta password is might strong.');
+// }else if(password.length >= 8){         // else if statement
+//     console.log('that password is long enough!');
+
+// }else {             // else statement use with same if statement example.
+//     console.log('That password is not long enough1');
+// }
+
+// logical opeartors - OR || and AND &&
+const password = 'p@ss';
+
+if(password.length >= 12 && password.includes('@')){
+    console.log('That password is might strong.');
+}else if(password.length >= 8 || password.includes('@') && password.length >= 5 ){         // else if statement
     console.log('that password is long enough!');
 
 }else {             // else statement use with same if statement example.
     console.log('That password is not long enough1');
 }
+
 
 
 
