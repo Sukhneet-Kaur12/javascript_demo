@@ -99,6 +99,17 @@ if(password.length >= 12 && password.includes('@')){
     console.log('That password is not long enough1');
 }
 
+// logical NOT (!)
+
+let user = false;
+
+if(!user){
+    console.log('you must be logged in to continue');
+}
+
+console.log(!true);
+console.log(!false);
+
 
 
 
