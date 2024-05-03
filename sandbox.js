@@ -182,4 +182,26 @@ console.log(price === '25');
 console.log(price !== 25);
 console.log(price !== '25');
 
+// type conversions (converting string into a number type)
+let score = '100';
+
+score = Number(score) // in bracket is the score which we want to convert and Number is the what we want to convert into.
+console.log(score + 1);
+
+// check the conversion by using type of operator
+console.log(typeof score);
+
+let height = String(50);
+console.log(height, typeof height);
+
+let Height = Boolean(100);
+console.log(Height, typeof Height);
+
+let weight = Boolean(0);
+console.log(weight, typeof weight);
+
+//in case of string
+let Weight = Boolean('0');
+console.log(Weight, typeof Weight);
+
 
