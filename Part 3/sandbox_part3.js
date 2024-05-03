@@ -66,13 +66,25 @@ let i = 3;
  }
  
  // to see if the password length is long than 8 characters in it then only it will say that line.
-const password = 'p@ssword';
+// const password = 'p@ssword';
 
-if(password.length >= 8){
-    console.log('that password is long enough!')
+// if(password.length >= 8){
+//     console.log('that password is long enough!')
+
+// }else {             // else statement use with same if statement example.
+//     console.log('That password is not long enough1')
+// }
+
+// if else statements is for multiple statements or conditions to pass 
+const password = 'p@ssword1234';
+
+if(password.length >= 12){
+    console.log('Thta password is might strong.');
+}else if(password.length >= 8){         // else if statement
+    console.log('that password is long enough!');
 
 }else {             // else statement use with same if statement example.
-    console.log('That password is not long enough1')
+    console.log('That password is not long enough1');
 }
 
 
