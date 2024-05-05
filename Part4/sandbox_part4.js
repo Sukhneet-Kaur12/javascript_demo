@@ -25,6 +25,21 @@ function greet(){
     console.log('hello there');
 }
 
+// arguments and parameters
+
+// const Speak = function(name, time){
+//     console.log(`good day ${name}`);
+//     console.log(`Good ${time} ${name}`);
+// };
+
+// Speak('mario', 'morning');
+
+const Speak = function(name = 'luigi', time = 'night'){
+    console.log(`Good ${time} ${name}`);
+};
+Speak();
+Speak('Mario')
+Speak('mario', 'morning');
 
 
 
