@@ -6,6 +6,12 @@ function greet(){
     console.log('hello there');
 }
 
+// function expression
+
+greet();
+greet(); // we could do it multiple times.
+greet();
+
 
 
 
