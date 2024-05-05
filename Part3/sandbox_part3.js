@@ -166,12 +166,23 @@ switch(grade){
 
 // variables and block scope
 let age = 30;
+let name = 'kelly';
+// similary with the const. instead of let.
+ //let age = 50; we cannot redeclare variable outside the block.
+ // age = 50; if i chaneg the variable value here, then i will get changed output like age = 50 in it.
 
 if(true){
-    console.log('inside 1st code block: ', age);
+    let age = 40; // If i redeclare varible insisde the block then age would be different in both the outputs. for ex, inside block : 40, outside block: 50
+    let name = 'shaun';
+    console.log('inside 1st code block: ', age, name);
+    if(true){
+        console.log('inside 2st code block: ', age); // if donot declare any age in this 2nd inside block, then it is going to take the varibale value from the ist declared varibale.
+    }
+
 }
 
-console.log('outside code block: ', age);
+
+console.log('outside code block: ', age, name); // here the output depends upon what has been declared outside the block. like here it is 30.
 
 
 
