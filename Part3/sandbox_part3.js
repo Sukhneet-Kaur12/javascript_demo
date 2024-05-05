@@ -124,22 +124,44 @@ if(scores[i] === 100){
 }
 
 
-// switch statements
-const grade = 'D';
-
-switch(grade){}
 // using if statements
-// for multiple statements or conditions we apply switch statements
-if(grade === 'A'){
 
-}else if(garde === 'B'){
+// if(grade === 'A'){
+
+// }else if(garde === 'B'){
     
-}else if(garde === 'C'){
+// }else if(garde === 'C'){
     
-}else if(garde === 'D'){
+// }else if(garde === 'D'){
     
-}else if(garde === 'E'){
+// }else if(garde === 'E'){
     
+// }
+
+
+// switch statements
+// for multiple statements or conditions we apply switch statements
+// only strings works in these cases, not the numbers/integers.
+const grade = 'S';
+
+switch(grade){
+    case 'A':
+        console.log('You got an A!');
+        break;
+    case 'B':
+        console.log('You got an B!');
+        break;
+    case 'C':
+        console.log('You got an C!');
+        break;
+    case 'D':
+        console.log('You got an D!');
+        break;
+    case 'E':
+        console.log('You got an E!');
+        break;
+    default:
+        console.log('Not a valid grade!');
 }
 
 
