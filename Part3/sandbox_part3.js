@@ -124,6 +124,24 @@ if(scores[i] === 100){
 }
 
 
+// switch statements
+const grade = 'D';
+
+switch(grade){}
+// using if statements
+// for multiple statements or conditions we apply switch statements
+if(grade === 'A'){
+
+}else if(garde === 'B'){
+    
+}else if(garde === 'C'){
+    
+}else if(garde === 'D'){
+    
+}else if(garde === 'E'){
+    
+}
+
 
 
 
