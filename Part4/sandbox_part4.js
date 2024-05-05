@@ -16,6 +16,15 @@ greet(); // we could do it multiple times.
 
 speak();
 
+//hoisting is we could declare the function after we pass the console statement.
+// so in javascript is hoisting the functions declared afterwards.
+// javascript only hoist function declaration not the function expression.
+
+greet();
+function greet(){
+    console.log('hello there');
+}
+
 
 
 
