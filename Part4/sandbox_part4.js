@@ -157,6 +157,8 @@ people.forEach(function(person){
 });
 
 console.log(html);
+ul.innerHTML = html;
+
 
 
 
