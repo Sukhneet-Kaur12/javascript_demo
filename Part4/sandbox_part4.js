@@ -64,8 +64,8 @@ console.log('area is:', area);
 // };
 
 //const greet = () => 'hello, world';
-const result = greet();
-console.log(result);
+// const result = greet();
+// console.log(result);
 
 // const bill = function(products, tax){
 //     let total = 0;
@@ -87,24 +87,76 @@ console.log(bill([10, 15, 30], 0.2));
 
 
 // functions
-const greet = () => 'hello';
+// const greet = () => 'hello';
 
-let resultOne = greet();
-console.log(resultOne);
+// let resultOne = greet();
+// console.log(resultOne);
 
-//methods
+// //methods
 
-let resultTwo = name.toUpperCase();
-console.log(resultTwo);
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+// callback and foreach
+
+const myFunc = (callbackFunc) => {
+    // do somehting
+    let value = 50;
+    callbackFunc(value);
+};
+
+myFunc(value => {
+    // do something
+    console.log(value);
+});
+
+// using a built in right method
+
+// callback and foreach
+
+let poeple = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+
+poeple.forEach(function(){
+    console.log('something');
+});
+// so the result will be written as "5 something"
+
+poeple.forEach(function(person){
+    console.log(person);
+});
+// so now the result will be show all the names of the people.
 
 
+// now by using arrow function for the above
+poeple.forEach(person => {
+    console.log(person);
+}); 
 
+// we could also add the index for the person like starting from 0, 1, 2, 3, 4 for each person along with their names.
+poeple.forEach((person, index) => {
+    console.log(index, person);
+}); 
 
+// we could also add variables along with names and index like hello mario,.. so on.
+const logPerson = (person, index) => {
+    console.log(`${index} - hello ${person}`);
+};
 
+poeple.forEach(logPerson); 
 
+// get a reference to the 'ul'
+const ul = document.querySelector('.people');
 
+const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
+let html = ``;
 
+people.forEach(function(person){
+    // create html template
+    html += `<li style="color: purple">${person}</li>`;
+});
+
+console.log(html);
 
 
 
