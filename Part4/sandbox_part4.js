@@ -63,7 +63,7 @@ console.log('area is:', area);
 //     return 'hello, world';
 // };
 
-const greet = () => 'hello, world';
+//const greet = () => 'hello, world';
 const result = greet();
 console.log(result);
 
@@ -86,6 +86,16 @@ const bill = (products, tax) => {
 console.log(bill([10, 15, 30], 0.2));
 
 
+// functions
+const greet = () => 'hello';
+
+let resultOne = greet();
+console.log(resultOne);
+
+//methods
+
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
 
 
 
