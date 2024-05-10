@@ -126,5 +126,16 @@ console.log(Math.random(random * 100)); // by multiplying it by 100, i could get
 scoreOne = 100;
  console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scroeTwo}`);
 
+// reference types
 
+const userOne = {name: 'ryu', age: 30};
+const userTwo = userOne;
+
+console.log(userOne, userTwo);
+
+userOne.name = 'chun-li';
+console.log(userOne, userTwo);
+
+userOne.age = 40;
+console.log(userOne, userTwo);
 
