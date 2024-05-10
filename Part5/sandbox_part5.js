@@ -115,9 +115,16 @@ console.log(random); // it will give any one random number from 0 to 1
 console.log(Math.random(random )); // it will give any 2 random numbers from 0 to 1
 console.log(Math.random(random * 100)); // by multiplying it by 100, i could get the intergers .
 
+// Javascript data types
 
+// primitive values
+ let scoreOne = 50;
+ let scroeTwo = scoreOne;
 
+ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scroeTwo}`);
 
+scoreOne = 100;
+ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scroeTwo}`);
 
 
 
